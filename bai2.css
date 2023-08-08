@@ -1,0 +1,147 @@
+header{
+    /* position: absolute;  */
+    /* z-index: 1; */
+    width: 100%;
+    
+}
+header nav.bg-light{
+    background-color: rgb(30, 147, 90) !important;
+}
+header nav a.navbar-brand{
+    color: white;
+}
+header nav ul li a.nav-link{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px !important;
+}
+header nav ul li a.nav-link.active{
+    color: white !important;
+
+}
+
+header .navbar-brand{
+    margin-right: 50px;
+}
+header nav ul{
+    width: 100%;
+   
+}
+.btn.btn-outline-success{
+    background-color: rgb(41, 190, 118);
+    color: white;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ccc;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+   
+}
+.col-lg-5.mb-lg-0{
+    width: 30%;
+}
+.d-flex.mb-4{
+    margin-right: 20px;
+}
+.menu{
+    background-color: #c0bebe;
+    border-radius: 5px;
+}
+.menu ul{
+    display: flex;
+    line-height: 40px;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.tieude{
+    display: flex;
+    
+}
+.shopping{
+   justify-content: left;
+   width: 50%;
+}
+.shopping a{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.backto{
+    width: 50%;
+}
+.backto a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-weight: 500;
+    
+}
+.proceed{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.proceed button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 214, 68);
+}
+.list-group.list-group-flush{
+    font-weight: 500;
+}
+.apply{
+    width: 100%;
+    margin: 0 auto;
+}
+.apply input{
+    height: 40px;
+    width: 60%;
+    
+}
+.apply button{
+    width: 30%;
+    border: none;
+    background-color: rgb(134, 196, 41);
+    font-size: 15px;
+}
+.footer{
+    background-color: white;
+    
+}
+.me-2{
+    width: 50%;
+    justify-content: end;
+    height: 45px;
+    width: 45px;
+    float: right;
+}
+.end{
+    width: 100%;
+   
+}
+
+
+   
+ 
+header .d-flex{
+    width: 30%;
+}
+header .d-flex a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and(max-width:978px){
+ 
+   
+}

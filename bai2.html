@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TSHOP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      New Product
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Allpage link</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <a href="#"><i class="bi bi-cart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg> </i> Cart <i class="bi bi-caret-down-fill"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                  </svg></i> </a>
+                   <a href="#"><i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></i></a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+        <div class="noidung">
+            
+                <section class="h-100 gradient-custom">
+                    <div class="container py-5">
+
+                      <div class="menu">
+                        <ul>
+                          <li><a href="#">Home    /</a></li>
+                          <li><a href="#">Category    /</a></li>
+                          <li><a href="#">Cart    </a></li>
+                        </ul>
+                      </div>
+                      <div class="tieude">
+                        <div class="shopping"> 
+                          <a href="#">
+                          <i class="bi bi-cart-fill"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg></i> Shopping Cart
+                        </a>
+                      </div>
+                      
+                       <div class="backto">
+                        <a href="#">
+                          <i class="bi bi-caret-left-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                          </svg></i> BACK TO SHOPPING
+                        </a>
+                       </div>
+
+                        
+                      </div>
+                      <div class="row d-flex justify-content-center my-4">
+                        <div class="col-md-8">
+                          <div class="card mb-4">
+                            <div class="card-header py-3">
+                              <h5 class="mb-0">Cart - 2 items</h5>
+                            </div>
+                            <div class="card-body">
+                              <!-- Single item -->
+                              <div class="row">
+                                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                  <!-- Image -->
+                                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/12a.webp"
+                                      class="w-100" alt="Blue Jeans Jacket" />
+                                    <a href="#!">
+                                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                    </a>
+                                  </div>
+                                  <!-- Image -->
+                                </div>
+                  
+                                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0" style="width: 30%;">
+                                  <!-- Data -->
+                                  <p><strong>Blue denim shirt</strong></p>
+                                  <p>Color: blue</p>
+                                  <p>Size: M</p>
+                                  <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                                    title="Remove item">
+                                    <i class="fas fa-trash"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                                    title="Move to the wish list">
+                                    <i class="fas fa-heart"></i>
+                                  </button>
+                                  <!-- Data -->
+                                </div>
+                  
+                                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" style="display: flex; padding-left: 20px;">
+                                  <!-- Quantity -->
+                                  <div class="d-flex mb-4" style="max-width: 300px ">
+                                    <button class="btn btn-primary px-3 me-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus">-</i>
+                                    </button>
+                  
+                                    <div class="form-outline">
+                                      <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                                      <label class="form-label" for="form1">Quantity</label>
+                                    </div>
+                  
+                                    <button class="btn btn-primary px-3 ms-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus">+</i>
+                                    </button>
+                                  </div>
+                                  <!-- Quantity -->
+                  
+                                  <!-- Price -->
+                                  <p class="text-start text-md-center">
+                                    <strong>$17.99</strong>
+                                  </p>
+                                  <!-- Price -->
+                                </div>
+                              </div>
+                              <!-- Single item -->
+                  
+                              <hr class="my-4" />
+                  
+                              <!-- Single item -->
+                              <div class="row">
+                                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                  <!-- Image -->
+                                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp"
+                                      class="w-100" />
+                                    <a href="#!">
+                                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                    </a>
+                                  </div>
+                                  <!-- Image -->
+                                </div>
+                  
+                                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                  <!-- Data -->
+                                  <p><strong>Red hoodie</strong></p>
+                                  <p>Color: red</p>
+                                  <p>Size: M</p>
+                  
+                                  <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                                    title="Remove item">
+                                    <i class="fas fa-trash"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                                    title="Move to the wish list">
+                                    <i class="fas fa-heart"></i>
+                                  </button>
+                                  <!-- Data -->
+                                </div>
+                  
+                                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" style="display: flex; padding-left: 20px; ">
+                                  <!-- Quantity -->
+                                  <div class="d-flex mb-4" style="max-width: 300px" >
+                                    <button class="btn btn-primary px-3 me-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus"> - </i>
+                                    </button>
+                  
+                                    <div class="form-outline">
+                                      <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                                      <label class="form-label" for="form1">Quantity</label>
+                                    </div>
+                  
+                                    <button class="btn btn-primary px-3 ms-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus">+</i>
+                                    </button>
+                                  </div>
+                                  <!-- Quantity -->
+                  
+                                  <!-- Price -->
+                                  <p class="text-start text-md-center">
+                                    <strong>$17.99</strong>
+                                  </p>
+                                  <!-- Price -->
+                                </div>
+                              </div>
+                              <!-- Single item -->
+                              <hr class="my-4" />
+                  
+                              <!-- Single item -->
+                              <div class="row">
+                                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                                  <!-- Image -->
+                                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Vertical/13a.webp"
+                                      class="w-100" />
+                                    <a href="#!">
+                                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                                    </a>
+                                  </div>
+                                  <!-- Image -->
+                                </div>
+                  
+                                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                  <!-- Data -->
+                                  <p><strong>Red hoodie</strong></p>
+                                  <p>Color: red</p>
+                                  <p>Size: M</p>
+                  
+                                  <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
+                                    title="Remove item">
+                                    <i class="fas fa-trash"></i>
+                                  </button>
+                                  <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
+                                    title="Move to the wish list">
+                                    <i class="fas fa-heart"></i>
+                                  </button>
+                                  <!-- Data -->
+                                </div>
+                  
+                                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" style="display: flex; padding-left: 20px;">
+                                  <!-- Quantity -->
+                                  <div class="d-flex mb-4" style="max-width: 300px" >
+                                    <button class="btn btn-primary px-3 me-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                      <i class="fas fa-minus">-</i>
+                                    </button>
+                  
+                                    <div class="form-outline" >
+                                      <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
+                                      <label class="form-label" for="form1">Quantity</label>
+                                    </div>
+                  
+                                    <button class="btn btn-primary px-3 ms-2" style="height: 30px; font-weight: 1000;"
+                                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                      <i class="fas fa-plus">+</i>
+                                    </button>
+                                  </div>
+                                  <!-- Quantity -->
+                  
+                                  <!-- Price -->
+                                  <p class="text-start text-md-center" >
+                                    <strong>$17.99</strong>
+                                  </p>
+                                  <!-- Price -->
+                                </div>
+                              </div>
+                              <!-- Single item -->
+                            </div>
+                            
+                          </div>
+                   
+                         
+                          
+                        </div>
+                        <div class="col-md-4">
+                          <div class="proceed">
+                            <button>Proceed to checkout <i class="bi bi-arrow-right-short"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg></i> </button>
+                          </div>
+                          <div class="card mb-4">
+                            <div class="card-header py-3">
+                              <h5 class="mb-0">Summary</h5>
+                            </div>
+                            <div class="card-body">
+                              <ul class="list-group list-group-flush">
+                                
+                                
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                  Total products
+                                  <span>$216.51</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                  Shipping
+                                  <span style="font-weight: 1000; font-size: 18px; color: rgb(139, 202, 45);">Free shipping!</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                  Total(tax exit)
+                                  <span>$216.51</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                  Total Tax
+                                  <span>$0.00</span>
+                                </li>
+                               
+                                <li
+                                  class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+                                  <div>
+                                    <strong>Total</strong>
+                                    
+                                  </div>
+                                  <span><strong style="color: rgb(108, 156, 36);">$53.98</strong></span>
+                                </li>
+                              </ul>
+                              
+                              <div class="apply">
+                                <input type="text">
+
+                                <button type="button" class="btn btn-primary btn-lg btn-block">
+                                  Apply!
+                                </button>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+           
+        </div>
+        <div class="footer">
+          <div class="end">
+             <!-- Footer -->
+              <footer class="text-center text-lg-start bg-light text-muted">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                  <!-- Left -->
+                  <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                  </div>
+                  <!-- Left -->
+              
+                  <!-- Right -->
+                  <div>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                  <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+              
+                <!-- Section: Links  -->
+                <section class="">
+                  <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                          <i class="fas fa-envelope me-3"></i>
+                          info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                      </div>
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                          Here you can use rows and columns to organize your footer content. Lorem ipsum
+                          dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+              
+                      <!-- Grid column -->
+                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" >
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Products
+                        </h6>
+                        <p >
+                          <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+              
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Useful links
+                        </h6>
+                        <p>
+                          <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                          <a href="#!" class="text-reset">Help</a>
+                        </p>
+                      </div>
+                      <!-- Grid column -->
+              
+                      <!-- Grid column -->
+                      
+                      <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                  </div>
+                </section>
+                <!-- Section: Links  -->
+              
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                  © 2021 Copyright:
+                  <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
+              <!-- Footer -->
+        
+           
+          </div>
+          <div class="card mb-4 mb-lg-0">
+            <div class="card-body" style="display: flex;">
+              <p style="width: 50%;"><strong>We accept</strong></p>
+              <img class="me-2" width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                alt="Visa" />
+              <img class="me-2" width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                alt="American Express" />
+              <img class="me-2" width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                alt="Mastercard" />
+              <!-- <img class="me-2" width="45px"
+                src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.webp"
+                alt="PayPal acceptance mark" /> -->
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
